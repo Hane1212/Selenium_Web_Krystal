@@ -1,0 +1,35 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Krystal" parallel="none" thread-count="1">
+    <listeners>
+        <listener class-name="utils.listeners.AnnotationTransformer"/>
+        <listener class-name="utils.listeners.ReportListener"/>
+    </listeners>
+    <test verbose="1" preserve-order="true" name="krystal.app.web" group-by-instances="true">
+        <parameter name="browser" value="Chrome"/>
+        <groups>
+            <run>
+<!--                <include name = "Access"></include>-->
+<!--                <include name = "Business_Transfer"></include>-->
+<!--                <include name = "Business_Swap"></include>-->
+<!--                <include name = "API_SWAP_Test"></include>-->
+<!--                <include name = "API_EARN_Test"></include>-->
+<!--                <include name = "Validate_Summary"></include>-->
+                <include name = "Validate_Default_Swap"></include>
+                <include name = "Validate_Review_Swap"></include>
+                <include name = "Validate_Summary_Swap"></include>
+<!--                <include name = "Validate_Default_Transfer"></include>-->
+<!--                <include name = "Validate_Transfer"></include>-->
+            </run>
+        </groups>
+        <classes>
+<!--            <class name="scripts.API.APITest_swap"></class>-->
+<!--            <class name="scripts.API.APITest_earn"></class>-->
+<!--            <class name="scripts.Earn"></class>-->
+<!--            <class name="scripts.MultiSend"></class>-->
+<!--            <class name="scripts.UI.Summary"></class>-->
+            <class name="scripts.UI.Swap"></class>
+<!--            <class name="scripts.UI.Transfer"></class>-->
+        </classes>
+    </test>
+</suite>

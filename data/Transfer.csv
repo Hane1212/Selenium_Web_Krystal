@@ -1,0 +1,5 @@
+TC_ID,Chain,TokenSource,Amount,AddressDes,IsApproval,Note
+TRANS_001,Ropsten,ETH,0.01,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Transfer native token
+TRANS_002,Ropsten,USD,1,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes, Transfer support token
+TRANS_003,Polygon,ETH,0.01,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Transfer native token
+TRANS_004,Polygon,USD,1,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes, Transfer support token

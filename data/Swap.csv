@@ -1,0 +1,5 @@
+TC_ID,TokenSource,Amount,TokenDes,IsApproval,Note
+SWP_001,ETH,0.1,USDC,YES,Native token to support token
+SWP_002,USDC,10,ETH,YES, Support token to native token
+SWP_003,USDC,1,KNC,YES, Support token to Support token
+SWP_004,USDC,1,KNC,NO, Swap with Unapprove token

@@ -1,0 +1,23 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Krystal" parallel="none" thread-count="1">
+    <listeners>
+        <listener class-name="utils.listeners.AnnotationTransformer"/>
+        <listener class-name="utils.listeners.ReportListener"/>
+    </listeners>
+    <test verbose="1" preserve-order="true" name="krystal.app.web" group-by-instances="true">
+        <parameter name="browser" value="Chrome"/>
+        <groups>
+            <run>
+<!--                <include name = "API_EARN_Test"></include>-->
+<!--                <include name = "API_SWAP_Test"></include>-->
+                <include name = "API_TRANS_Test"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="scripts.API.APITest_transfer"></class>
+            <class name="scripts.API.APITest_swap"></class>
+            <class name="scripts.API.APITest_earn"></class>
+        </classes>
+    </test>
+</suite>

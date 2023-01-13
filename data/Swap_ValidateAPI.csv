@@ -1,0 +1,12 @@
+Chain,Source Token,Dest Token,Amount
+Ethereum,USDT,FUSE,1
+BSC,BUSD,KNC,0.1
+Polygon,MATIC,USDT,1
+Avalanche,AVAX,MIM,0.2
+Cronos,USDC,USDT,0.1
+Fantom,FTM,fUSDT,1
+Arbitrum,USDT,ETH,1
+Aurora,ETH,AURORA,1
+Ropsten,ETH,KNC,1
+Klaytn,oUSDT,KLAY,0.5
+Optimism,QI,ETH,1

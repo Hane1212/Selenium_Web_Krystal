@@ -1,0 +1,16 @@
+Code,Message,Note
+ERR_001,
+ERR_002,Insufficient balance.,When input amount larger than balance of source in Swap
+ERR_003,Amount must be greater than 0.,When input amount is 0
+ERR_004,Please select a token., When User has not select token in Multisend screen
+ERR_005,"Please fill in all information of address, token and amount to perform multi send", There is error in Multi send screen
+ERR_006,Invalid amount.,When input amount is 0
+CONFIRM_001,Swapped Successfully
+CONFIRM_002,Successfully Transferred!
+CONFIRM_003,Successfully Earned!
+CONFIRM_004,Done!
+CONFIRM_005,Successfully Withdrawn!
+WARN_001,Please approve token with enough allowance.,when click Transfer before Approve in Multi send
+WARN_002,Enter an amount, Default button when acess to swap page
+WARN_003,The address is invalid., Warning after click tranfer button when Recipient Address is empty
+WARN_004,Insufficient Balance,Message on [Transfer] button when input amount larger than balance in Multisend screen

@@ -1,0 +1,14 @@
+Test_ID,Token,Amount,Receiver,IsApproval,Note
+MS_001,ETH,0.1,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: Native token
+MS_002,COMP,0.2,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: Support token
+MS_003,USD,0.2,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: Multi tokens to the same wallet which are approved
+MS_003,BAT,0.1,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: Multi tokens to the same wallet which are approved
+MS_003,COMP,0.2,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: Multi tokens to the same wallet which are approved
+MS_004,COMP,0.2,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: One token to multi wallets which approved
+MS_004,COMP,0.1,0x31Fa4117639788bCBd94AeFdF886e75A1e31c8Dd,Yes,Perform MS: One token to multi wallets which approved
+MS_004,COMP,0.2,0x076567024aa84D766803EF0128dc7C58C13a6359,Yes,Perform MS: One token to multi wallets which approved
+MS_005,EGGS,0.2,0x8D61aB7571b117644A52240456DF66EF846cd999,Yes,Perform MS: Multi tokens to multi wallets which approved
+MS_005,COMP,0.2,0x31Fa4117639788bCBd94AeFdF886e75A1e31c8Dd,No,Perform MS: Multi tokens to multi wallets which not approved
+MS_005,EGGS,0.2,0x076567024aa84D766803EF0128dc7C58C13a6359,Yes,Perform MS: Multi tokens to multi wallets which approved
+MS_005,OMG,0.2,0x8D61aB7571b117644A52240456DF66EF846cd999,No,Perform MS: Multi tokens to multi wallets which not approved
+MS_005,COMP,0.2,0x076567024aa84D766803EF0128dc7C58C13a6359,Yes,Perform MS: Multi tokens to multi wallets which approved
